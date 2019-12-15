@@ -57,6 +57,7 @@ function App() {
             key={recipe.uri}
             weight={recipe.totalWeight}
             img={recipe.image}
+            ingredients={recipe.ingredientLines}
           />
         ))}
       </div>
